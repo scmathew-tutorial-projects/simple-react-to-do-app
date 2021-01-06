@@ -34,8 +34,8 @@ class AddToDoForm extends React.Component {
     render() {
       return (
         <form className="form" onSubmit={this.handleSubmit}>
-          <input class="text-input" type="text" value={this.state.value} onChange={this.handleChange} />
-          <input class="submit-input" type="submit" value="Add To Do" />
+          <input className="text-input" type="text" value={this.state.value} onChange={this.handleChange} />
+          <input className="submit-input" type="submit" value="Add To Do" />
         </form>
       );
     }
