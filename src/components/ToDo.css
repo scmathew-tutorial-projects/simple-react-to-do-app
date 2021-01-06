@@ -5,3 +5,7 @@
     padding: 10px;
     border-radius: 9px;
 }
+
+.todo:hover {
+    background-color:lightcoral;
+}
